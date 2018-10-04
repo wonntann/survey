@@ -1,0 +1,30 @@
+body {
+background-color:#f5eff6;
+font-family: "Brandon Grotesque Thin";
+display: block;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+#title {
+    font-size: 200px;
+    text-align: center;
+}
+form {
+    background-color: #f6d9b1
+}
+button {
+    background-color: #4b435b;
+}
+section {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+lines {
+    background-color: #000
+}
+footer {
+    font-family: 'Montserrat', sans-serif;
+}
