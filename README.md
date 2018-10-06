@@ -7,5 +7,3 @@ button background-color: #4b435b
 section background-color: #fff
 lines background-color: #000
 font-family: brandon grotesque, proxima nova
-
-
