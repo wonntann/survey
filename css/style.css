@@ -1,15 +1,28 @@
-body, html {
+body,
+html {
     background-color: #f5eff6;
     font-family: "Brandon Grotesque Thin";
     display: block;
 }
 
-header, section, footer, .logo, h1, img {
+header,
+section,
+footer,
+.logo,
+h1,
+img {
     display: block;
 }
-.image {
-    width: 200px;
+
+.image,
+.side2 {
+    width: 600px;
     height: auto;
+}
+
+img,
+#survey-form {
+    width: 100%;
 }
 
 /* Header */
@@ -33,20 +46,31 @@ header, section, footer, .logo, h1, img {
     position: relative;
     margin-left: 45%;
 }
+
 p {
     text-align: center;
-font-family: 'monsterrat';
-margin-top: 0;
-font-size: 30px;
+    font-family: 'monsterrat';
+    margin-top: 0;
+    font-size: 30px;
 }
+
 /* Section */
 section {
     display: flex;
     margin-bottom: 50px;
 }
+
+/* Form */
 form {
     background-color: #f6d9b1;
-
+margin: 0 auto;
+width: 400px;
+padding: 10px;
+}
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: center;
 }
 
 button {
