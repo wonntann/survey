@@ -1,13 +1,13 @@
 body,
 html {
-    background-color: #f5eff6;
     font-family: "Brandon Grotesque Thin";
     display: block;
-    width: 100%;
-}
-
-header {
-    width: 1500px;
+    margin: 0;
+    background-image: url(../images/bread.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     margin: 0 auto;
 }
 
@@ -16,87 +16,125 @@ section,
 footer,
 .logo,
 h1,
-img {
+img, input, label, p, h1 {
     display: block;
 }
-
-.image,
-.side2 {
-    width: 600px;
-    height: auto;
+a {
+    color: #A61D3F;
 }
 
-img,
-#survey-form {
+section {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/* Side 1 */
+
+.welcome {
+    line-height: 1px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.side1 {
+    float: left;
+    width: 50%;
+    position: relative;
+    height: 1000px;
+}
+
+.side_image {
+    height: auto;
     width: 100%;
 }
 
-/* Header */
-.logo {
-    margin: 0 auto;
-    width: 300px;
-    height: auto;
-}
-
-#title {
-    font-size: 200px;
-    margin-left: 19%;
-    text-transform: uppercase;
-    letter-spacing: -20px;
+#description {
+    color: #fff;
+    padding: 5%;
     position: absolute;
-    z-index: 100;
-    width: 1100px;
-}
-.titleImage {
-    
-}
-.flower {
-    position: relative;
-    margin-left: 45%;
+    bottom: 8px;
+    left: 16px;
+    text-align: center;
+    font-size: 35px;
 }
 
-p {
+/* Form/Side 2*/
+#title {
+    text-align: center;
+    font-size: 30px;
+}
+legend {
+    display: none;
+}
+fieldset {
+    border: 0;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.welcome p {
     text-align: center;
     font-family: 'monsterrat';
     margin-top: 0;
-    font-size: 30px;
+    font-size: 16px;
 }
 
-/* Section */
-section {
-    display: flex;
-    margin-bottom: 50px;
+.side2 {
+    float: left;
+    width: 50%;
+    height: 1000px;
+    background-color: #fff;
 }
 
-/* Form */
+.logo_black {
+    display: none;
+}
+
 form {
-    background-color: #f6d9b1;
     margin: 0 auto;
-    width: 400px;
-    padding: 10px;
+    background-color: #EEBF8C;
 }
 
 label {
     display: inline-block;
-    width: 90px;
     text-align: center;
 }
 
 button {
     background-color: #4b435b;
+    margin: 0 auto;
 }
 
-section {
+.button {
     background-color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
+    height: 70px;
+    width: 100%;
 }
 
 hr {
     color: #000
 }
 
-footer {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+/* Media queries */
+@media only screen and (max-width: 763px) {
+    .side1 {
+        display: none;
+    }
+
+    .side2 {
+        width: 100%;
+    }
+
+    .logo_black {
+        display: block;
+        width: 200px;
+        height: auto;
+        margin: 0 auto;
+    }
 }

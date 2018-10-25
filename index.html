@@ -16,34 +16,61 @@
 </head>
 
 <body>
+    
     <section class="side1">
-        <header>
-            <img src="images/logoBlack.png" alt="logo" class="logo">
-                
-        
-            <p id="description">Send a loved one your favorite recipe, so they can add it to their personal catalog.</p>
+        <header role="banner">
+            <img src="images/logo.png" alt="logo" class="logo">
         </header>
+        <p id="description">Send a loved one your favorite recipe, so they can add it to their personal catalog.</p>
     </section>
 
-    <section>
-        <div class="info">
-            <form action="post" id="survey-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name">
+    <section class="side2">
+        <header role="banner">
+            <img src="images/logoBlack.png" alt="logo" class="logo_black">
+        
+        <div class="welcome">
+            <h1 id="title">Welcome to eRecipe!</h1>
+            <p>Let's get you set up so you can start sharing your recipe</p>
+        </div>
+    </header>
+        <form action="post" id="survey-form">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="first_name" name="user_name">
+                <label for="firstname">Last Name:</label>
+                <input type="text" id="last_name" name="user_name">
                 <label for="mail">Email:</label>
                 <input type="email" id="email" name="user_name">
-                <label for="phone">Number:</label>
+                <label for="phone">Phone:</label>
                 <input type="text" id="number" name="user_name">
-                <label for="msg">Message:</label>
+            </fieldset>
+            <fieldset>
+                <legend>Quick Questions</legend>
+                <select name="" id=""> <p>How did you hear about us?</p>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Facebook">Twitter</option>
+                    <option value="Facebook">From a Friend</option>
+                    <option value="Facebook">Google Ad</option>
+                    <option value="Facebook">Radio</option>
+                    <option value="Facebook">Other</option>
+                </select>
+                <input type="checkbox" name="checkbox" id="checkbox">How would you like to use eRecipe?
+                <label for="use">Use eRecipe recipes</label>
+                <label for="use">Upload recipe</label>
+                <label for="use">Create recipes</label>
+                <label for="use">Use eRecipe recipes</label>
+                <label for="msg">Any Comments or Suggestions?</label>
                 <textarea name="" id="" cols="30" rows="10">Personal Message</textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-
+                <input type="radio" name="" id="">
+                <label for="subscription">Yes, I want to recieve eRecipe's emails.</label>
+                <input type="radio" name="" id="">
+                <label for="terms">I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a></label>
+            </fieldset>
+            <div class="button">
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
     </section>
-    
-    <footer>
-        <h1>Sharing Recipes of the World</h1>
-    </footer>
 
 </html>
