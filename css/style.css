@@ -1,6 +1,8 @@
 body,
 html {
-    font-family: "Brandon Grotesque Thin";
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
     display: block;
     margin: 0;
     background-image: url(../images/bread.jpg);
@@ -16,23 +18,24 @@ section,
 footer,
 .logo,
 h1,
-img, input, label, p, h1 {
+img,
+input,
+label,
+p,
+h1 {
     display: block;
 }
+
 a {
     color: #A61D3F;
 }
 
 section {
-    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
-/* Side 1 */
+/* SIDE 1 */
 
-.welcome {
-    line-height: 1px;
-}
 
 .logo {
     width: 200px;
@@ -46,7 +49,7 @@ section {
     float: left;
     width: 50%;
     position: relative;
-    height: 1000px;
+    height: 850px;
 }
 
 .side_image {
@@ -58,38 +61,52 @@ section {
     color: #fff;
     padding: 5%;
     position: absolute;
-    bottom: 8px;
+    bottom: 20px;
     left: 16px;
     text-align: center;
     font-size: 35px;
 }
 
-/* Form/Side 2*/
+/* FORM/SIDE 2*/
 #title {
     text-align: center;
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
 }
+
+input {
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid #4B435B;
+    padding: 5px 0;
+    width: 230px;
+}
+
+input:focus {
+    border-bottom: 4px solid #4B435B;
+}
+
+label {
+    padding: 5px 0;
+    display: inline-block;
+    text-align: center;
+}
+
 legend {
     display: none;
 }
+
 fieldset {
     border: 0;
     width: 600px;
     margin: 0 auto;
 }
 
-.welcome p {
-    text-align: center;
-    font-family: 'monsterrat';
-    margin-top: 0;
-    font-size: 16px;
-}
-
 .side2 {
     float: left;
     width: 50%;
-    height: 1000px;
-    background-color: #fff;
+    background-color: #EEBF8C;
 }
 
 .logo_black {
@@ -97,14 +114,69 @@ fieldset {
 }
 
 form {
+    background-color: #EEBF8C;
     margin: 0 auto;
+    width: 400px;
+}
+
+/* SELECT */
+
+.welcome {
+    width: 358px;
+    margin: 0 auto;
+}
+
+.welcome p {
+    text-align: center;
+    margin-top: 0;
+    padding: 0 20px;
+}
+
+.custom-select {
+    color: #252525;
+    background-color: #EEBF8C;
+    border: 2px solid #4B435B;
+    text-align: center;
+    padding: 5px;
+    width: 250px;
+    background: url(../images/arrow.png) 96% / 15% no-repeat;
+    -webkit-appearance: none;
+}
+
+.custom-select option {
     background-color: #EEBF8C;
 }
 
-label {
+/* CHECKBOX */
+input#checkbox,
+label#checkbox {
     display: inline-block;
-    text-align: center;
+    width: 20px;
 }
+
+/* Labels for checked inputs */
+input:checked+label {
+    color: #4B435B;
+}
+
+/* Checkbox element, when checked */
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 2px #4B435B;
+    background-color: #EEBF8C;
+}
+
+/* TEXTAREA */
+textarea {
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #4B435B;
+    border-radius: 2px;
+    background-color: #EEBF8C;
+}
+
+/* RADIO BUTTONS */
+
 
 button {
     background-color: #4b435b;
@@ -113,7 +185,6 @@ button {
 
 .button {
     background-color: #fff;
-    height: 70px;
     width: 100%;
 }
 
@@ -121,7 +192,7 @@ hr {
     color: #000
 }
 
-/* Media queries */
+/* MEDIA QUERIES */
 @media only screen and (max-width: 763px) {
     .side1 {
         display: none;
