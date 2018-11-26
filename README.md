@@ -32,9 +32,9 @@ Accessibility Checklist: https://webaim.org/standards/wcag/checklist
 Within the Assets folder, you can see the original mockup with original vector image.
 
 # Design CSS Manual 
-background-color:#f5eff6
-form background-color: #f6d9b1
-button background-color: #4b435b
-section background-color: #fff
-lines background-color: #000
+background-color:#f5eff6 <br /> 
+form background-color: #f6d9b1 <br /> 
+button background-color: #4b435b <br /> 
+section background-color: #fff <br /> 
+lines background-color: #000 <br /> 
 font-family: brandon grotesque, proxima nova
