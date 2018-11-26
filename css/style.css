@@ -5,12 +5,7 @@ html {
     font-size: 16px;
     display: block;
     margin: 0;
-    background-image: url(../images/bread.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    margin: 0 auto;
+    height: auto;
 }
 
 header,
@@ -49,7 +44,14 @@ section {
     float: left;
     width: 50%;
     position: relative;
-    height: 850px;
+    height: 900px;
+    
+    background-image: url(../images/bread.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 .side_image {
@@ -73,6 +75,7 @@ section {
     font-size: 32px;
     font-weight: 400;
     margin-bottom: 0px;
+    margin-top: 5px;
 }
 
 input {
@@ -91,6 +94,10 @@ label {
     padding: 5px 0;
     display: inline-block;
     text-align: center;
+}
+input[type="radio"] {
+display: inline-block;
+width: 20px;
 }
 
 legend {
@@ -119,8 +126,22 @@ form {
     width: 400px;
 }
 
-/* SELECT */
+/* SIGN UP */
+input[type="submit"] {
+    color: #fff;
+    padding: 5px;
+    background-color: #4B435B;
+display: block;
+margin: 0 auto;
+    font-size: 32px;
+}
 
+.button {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+}
+/* SELECT */
 .welcome {
     width: 358px;
     margin: 0 auto;
@@ -177,16 +198,11 @@ textarea {
 
 /* RADIO BUTTONS */
 
-
 button {
     background-color: #4b435b;
     margin: 0 auto;
 }
 
-.button {
-    background-color: #fff;
-    width: 100%;
-}
 
 hr {
     color: #000
