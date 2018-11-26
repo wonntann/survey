@@ -37,4 +37,4 @@ form background-color: #f6d9b1 <br />
 button background-color: #4b435b <br /> 
 section background-color: #fff <br /> 
 lines background-color: #000 <br /> 
-font-family: brandon grotesque, proxima nova
+font-family: Montserrat 300, 400
