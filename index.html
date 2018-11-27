@@ -14,7 +14,7 @@
 </head>
 
 <body>
-
+<div id="main">
     <section class="side1">
         <header role="banner">
             <img src="images/logo.png" alt="logo" class="logo">
@@ -24,7 +24,7 @@
 
     <section class="side2">
         <header role="banner">
-            <img src="images/logoBlack.png" alt="logo" class="logo_black">
+            <img src="images/logoBlack.png" alt="logo" class="logo_black" id="image">
 
             <div class="welcome">
                 <h1 id="title">Welcome to eRecipe!</h1>
@@ -34,10 +34,8 @@
         <form action="post" id="survey-form">
             <fieldset>
                 <legend>Contact Information</legend>
-                <label for="firstname">First Name</label>
-                <input type="text" id="first_name" name="user_name">
-                <label for="firstname">Last Name</label>
-                <input type="text" id="last_name" name="user_name">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="user_name">
                 <label for="mail">Email</label>
                 <input type="email" id="email" name="user_name">
                 <label for="phone">Phone</label>
@@ -83,5 +81,5 @@
             <input type="Submit" form="survey-form" value="Sign Up">
         </div>
     </section>
-
+    </div>
 </html>
