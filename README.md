@@ -2,7 +2,7 @@
 # freeCodeCamp: Survey
 
 This repository holds my survey page for freeCodeCamp's second [basic front end project](https://www.freecodecamp.org/) serving as a survey to eRecipe.
-Visit the completed website at: [Tribute](https://wonntann.github.io/survey/)
+Visit the completed website at: [Survey](https://wonntann.github.io/survey/)
 
 
 [<img src="https://github.com/wonntann/survey/blob/master/images/prototype.png">](https://wonntann.github.io/survey/)
